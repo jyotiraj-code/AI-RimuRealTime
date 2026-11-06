@@ -1,0 +1,7 @@
+RimuRealTime smoke test summary (data/rrt_smoke_test)
+steps reported: 200, t = 0.01 … 2.0000000000000013
+pec_det    max|ΔP0| = 6.781e-03   mean|ΔP0| = 1.376e-03   final norm drift = +5.667e-04
+pec_stoch  max|ΔP0| = 6.880e-03   mean|ΔP0| = 1.528e-03   final norm drift = +1.160e-03
+exact      final norm drift = -4.441e-16
+min P0(exact) = 0.0006 at t = 1.73
+pec_stoch occupied configs: min 10, max 35 (of 35)

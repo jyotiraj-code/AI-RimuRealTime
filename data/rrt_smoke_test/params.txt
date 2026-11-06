@@ -1,0 +1,10 @@
+script      = rrt_smoke_test.jl
+hamiltonian = HubbardReal1D(BoseFS(1,1,1,1); u=4.0, t=1.0)
+dimension   = 35
+dt          = 0.01
+tmax        = 2.0
+walkers     = 200 (pec_stoch only)
+seed        = 1234 (pec_stoch only)
+status      = exact: ok
+status      = pec_det: ok
+status      = pec_stoch: ok
