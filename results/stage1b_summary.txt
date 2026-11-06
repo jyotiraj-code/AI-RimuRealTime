@@ -1,0 +1,17 @@
+Stage 1b summary (data/stage1b_alpha)
+  reweight α=1 (full GP)          max|F - F(unguided PEC)| = 8.88e-16 ; generator min F = 0.7954
+  reweight α=½                    max|F - F(unguided PEC)| = 6.66e-16 ; generator min F = 0.0142
+  reweight α=0 (GP phase gauge)   max|F - F(unguided PEC)| = 4.44e-16 ; generator min F = 0.0011
+  time-averaged fidelity, mean ± sd over seeds:
+    W=  100  unguided   <F> = 0.1345 ± 0.0204   max l1 = 639
+    W=  100  α=1p0      <F> = 0.0195 ± 0.0034   max l1 = 1.3e+05
+    W=  100  α=0p5      <F> = 0.0303 ± 0.0107   max l1 = 2.7e+04
+    W=  100  α=0p0      <F> = 0.1286 ± 0.0154   max l1 = 600
+    W=  300  unguided   <F> = 0.4449 ± 0.0300   max l1 = 743
+    W=  300  α=1p0      <F> = 0.0287 ± 0.0054   max l1 = 9.9e+04
+    W=  300  α=0p5      <F> = 0.0936 ± 0.0190   max l1 = 1.59e+05
+    W=  300  α=0p0      <F> = 0.4439 ± 0.0361   max l1 = 706
+    W= 1000  unguided   <F> = 0.9135 ± 0.0064   max l1 = 1.2e+03
+    W= 1000  α=1p0      <F> = 0.0610 ± 0.0105   max l1 = 1.66e+05
+    W= 1000  α=0p5      <F> = 0.2995 ± 0.0292   max l1 = 1.8e+05
+    W= 1000  α=0p0      <F> = 0.9107 ± 0.0057   max l1 = 1.2e+03

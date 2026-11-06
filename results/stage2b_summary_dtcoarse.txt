@@ -1,0 +1,19 @@
+Stage 2b summary: time-averaged fidelity <F>_t (mean ± sd over seeds)
+  vortex_stable_N24    W=   300  gauge 0.0892 ± 0.0182   unguided 0.1015 ± 0.0284   sign gauge 0.223  unguided 0.035
+  vortex_stable_N24    W=  1000  gauge 0.5188 ± 0.0076   unguided 0.5028 ± 0.0169   sign gauge 0.588  unguided 0.025
+  vortex_stable_N24    W=  3000  gauge 0.9400 ± 0.0014   unguided 0.9388 ± 0.0023   sign gauge 0.880  unguided 0.007
+  vortex_unstable_N24  W=   300  gauge 0.0940 ± 0.0164   unguided 0.0798 ± 0.0199   sign gauge 0.119  unguided 0.049
+  vortex_unstable_N24  W=  1000  gauge 0.4636 ± 0.0061   unguided 0.4554 ± 0.0264   sign gauge 0.219  unguided 0.031
+  vortex_unstable_N24  W=  3000  gauge 0.9424 ± 0.0021   unguided 0.9416 ± 0.0010   sign gauge 0.316  unguided 0.010
+  imb_regular_N24      W=   300  gauge 0.0962 ± 0.0079   unguided 0.0950 ± 0.0018   sign gauge 0.152  unguided 0.102
+  imb_regular_N24      W=  1000  gauge 0.3685 ± 0.0069   unguided 0.3687 ± 0.0056   sign gauge 0.340  unguided 0.209
+  imb_regular_N24      W=  3000  gauge 0.5309 ± 0.0019   unguided 0.5298 ± 0.0038   sign gauge 0.506  unguided 0.332
+  imb_chaotic_N24      W=   300  gauge 0.0735 ± 0.0032   unguided 0.0718 ± 0.0034   sign gauge 0.137  unguided 0.225
+  imb_chaotic_N24      W=  1000  gauge 0.1357 ± 0.0002   unguided 0.1356 ± 0.0012   sign gauge 0.207  unguided 0.404
+  imb_chaotic_N24      W=  3000  gauge 0.1479 ± 0.0003   unguided 0.1478 ± 0.0002   sign gauge 0.241  unguided 0.455
+  vortex_stable_N48    W=  1000  gauge 0.1675 ± 0.0082   unguided 0.1693 ± 0.0121   sign gauge 0.251  unguided 0.021
+  vortex_stable_N48    W=  3000  gauge 0.6278 ± 0.0039   unguided 0.6312 ± 0.0131   sign gauge 0.536  unguided 0.010
+  vortex_stable_N48    W= 10000  gauge 0.9410 ± 0.0011   unguided 0.9416 ± 0.0011   sign gauge 0.817  unguided 0.003
+  vortex_unstable_N48  W=  1000  gauge 0.0809 ± 0.0013   unguided 0.0688 ± 0.0022   sign gauge 0.074  unguided 0.034
+  vortex_unstable_N48  W=  3000  gauge 0.3656 ± 0.0100   unguided 0.3607 ± 0.0073   sign gauge 0.131  unguided 0.021
+  vortex_unstable_N48  W= 10000  gauge 0.8648 ± 0.0026   unguided 0.8656 ± 0.0018   sign gauge 0.199  unguided 0.005

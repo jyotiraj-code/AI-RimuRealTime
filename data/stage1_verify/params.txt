@@ -1,0 +1,28 @@
+script      = stage1_verify.jl
+versions    = Rimu 0.18.2, RimuRealTime 0.1.0-DEV, Gutzwiller 0.1.0
+hamiltonian = HubbardReal1D(fs"|2 2 2 2⟩"; u=1.0, t=1.0)
+dim         = 165
+c0          = ComplexF64[0.5965499862718936 + 0.0im, 0.4559247755783355 + 0.14103406018151143im, 0.314113119148893 - 0.1716007790836395im, 0.29008559983348015 + 0.45178155399181275im]
+dt          = 0.005, tmax = 4.0, every = 2
+walkers     = (100, 1000), seeds = (1, 2, 3)
+gp_check    = E_rimu 13.603317367478  E_gp 13.603317367478
+lyapunov_gp = 0.14850
+
+final-time results (t = 4.0):
+  exact_unguided             fid_end = 1.00000000  min_fid = 1.00000000  sign_end = 0.2573  l1_end =     997.17  len_end =  165
+  exact_guided               fid_end = 0.99999998  min_fid = 0.99995712  sign_end = 0.4131  l1_end =     698.26  len_end =  165
+  exact_guided_nodt          fid_end = 0.03769666  min_fid = 0.00048024  sign_end = 0.3551  l1_end =   97859.28  len_end =  165
+  pec_unguided_det           fid_end = 0.99947883  min_fid = 0.99947883  sign_end = 0.2600  l1_end =     997.12  len_end =  165
+  pec_guided_det             fid_end = 0.99772502  min_fid = 0.79537177  sign_end = 0.4070  l1_end =     698.08  len_end =  165
+  pec_unguided_W100_s1       fid_end = 0.02407023  min_fid = 0.01829989  sign_end = 0.0683  l1_end =     617.62  len_end =  161
+  pec_guided_W100_s1         fid_end = 0.00030274  min_fid = 0.00002767  sign_end = 0.0028  l1_end = 1810195372.00  len_end =  165
+  pec_unguided_W100_s2       fid_end = 0.01625835  min_fid = 0.01096457  sign_end = 0.0830  l1_end =     632.90  len_end =  160
+  pec_guided_W100_s2         fid_end = 0.00026861  min_fid = 0.00000262  sign_end = 0.0047  l1_end = 8661138.04  len_end =  165
+  pec_unguided_W100_s3       fid_end = 0.04100602  min_fid = 0.03753097  sign_end = 0.1107  l1_end =     605.56  len_end =  162
+  pec_guided_W100_s3         fid_end = 0.00093012  min_fid = 0.00002662  sign_end = 0.0106  l1_end = 27323543.20  len_end =  165
+  pec_unguided_W1000_s1      fid_end = 0.87067198  min_fid = 0.87067198  sign_end = 0.2426  l1_end =    1090.94  len_end =  163
+  pec_guided_W1000_s1        fid_end = 0.00080818  min_fid = 0.00001758  sign_end = 0.0038  l1_end = 1684916378.07  len_end =  165
+  pec_unguided_W1000_s2      fid_end = 0.84901354  min_fid = 0.84901354  sign_end = 0.2580  l1_end =    1124.55  len_end =  164
+  pec_guided_W1000_s2        fid_end = 0.00237096  min_fid = 0.00002193  sign_end = 0.0086  l1_end = 35658119.56  len_end =  165
+  pec_unguided_W1000_s3      fid_end = 0.85158843  min_fid = 0.85076510  sign_end = 0.2073  l1_end =    1144.94  len_end =  162
+  pec_guided_W1000_s3        fid_end = 0.00053298  min_fid = 0.00003249  sign_end = 0.0073  l1_end = 169165076279.65  len_end =  165

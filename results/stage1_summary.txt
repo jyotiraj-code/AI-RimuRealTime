@@ -1,0 +1,20 @@
+Stage 1 summary (data/stage1_verify)
+  exact_guided               max(1-fid) = 4.288e-05   end(1-fid) = 1.772e-08   end sign = 0.4131   end l1 =    698.26
+  exact_guided_nodt          max(1-fid) = 9.995e-01   end(1-fid) = 9.623e-01   end sign = 0.3551   end l1 =  97859.28
+  exact_unguided             max(1-fid) = 8.882e-16   end(1-fid) = -4.441e-16   end sign = 0.2573   end l1 =    997.17
+  pec_guided_W1000_s1        max(1-fid) = 1.000e+00   end(1-fid) = 9.992e-01   end sign = 0.0038   end l1 = 1684916378.07
+  pec_guided_W1000_s2        max(1-fid) = 1.000e+00   end(1-fid) = 9.976e-01   end sign = 0.0086   end l1 = 35658119.56
+  pec_guided_W1000_s3        max(1-fid) = 1.000e+00   end(1-fid) = 9.995e-01   end sign = 0.0073   end l1 = 169165076279.65
+  pec_guided_W100_s1         max(1-fid) = 1.000e+00   end(1-fid) = 9.997e-01   end sign = 0.0028   end l1 = 1810195372.00
+  pec_guided_W100_s2         max(1-fid) = 1.000e+00   end(1-fid) = 9.997e-01   end sign = 0.0047   end l1 = 8661138.04
+  pec_guided_W100_s3         max(1-fid) = 1.000e+00   end(1-fid) = 9.991e-01   end sign = 0.0106   end l1 = 27323543.20
+  pec_guided_det             max(1-fid) = 2.046e-01   end(1-fid) = 2.275e-03   end sign = 0.4070   end l1 =    698.08
+  pec_unguided_W1000_s1      max(1-fid) = 1.293e-01   end(1-fid) = 1.293e-01   end sign = 0.2426   end l1 =   1090.94
+  pec_unguided_W1000_s2      max(1-fid) = 1.510e-01   end(1-fid) = 1.510e-01   end sign = 0.2580   end l1 =   1124.55
+  pec_unguided_W1000_s3      max(1-fid) = 1.492e-01   end(1-fid) = 1.484e-01   end sign = 0.2073   end l1 =   1144.94
+  pec_unguided_W100_s1       max(1-fid) = 9.817e-01   end(1-fid) = 9.759e-01   end sign = 0.0683   end l1 =    617.62
+  pec_unguided_W100_s2       max(1-fid) = 9.890e-01   end(1-fid) = 9.837e-01   end sign = 0.0830   end l1 =    632.90
+  pec_unguided_W100_s3       max(1-fid) = 9.625e-01   end(1-fid) = 9.590e-01   end sign = 0.1107   end l1 =    605.56
+  pec_unguided_det           max(1-fid) = 5.212e-04   end(1-fid) = 5.212e-04   end sign = 0.2600   end l1 =    997.12
+  bound sign(ψ̃) ≥ √F_GP holds for exact guided run: true
+  F_GP first < 1/2 at t = 1.04

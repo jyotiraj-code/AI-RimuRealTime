@@ -1,0 +1,133 @@
+versions = Rimu 0.18.2, RimuRealTime 0.1.0-DEV, Gutzwiller 0.1.0
+
+vortex_stable_N24  H=HubbardReal1D(fs"|8 8 8⟩"; u=0.06521739130434782, t=1.0) dim=325 dt=0.00139 tmax=6.0
+  det_unguided               mean_fid=1.00000  end_fid=1.00000  end_sign=0.0000  end_l1=    1202.5  fgp_end=0.9228
+  det_gauge                  mean_fid=1.00000  end_fid=1.00000  end_sign=0.9421  end_l1=    1202.5  fgp_end=0.9228
+  sto_unguided_W300_s1       mean_fid=0.16817  end_fid=0.07671  end_sign=0.0384  end_l1=    2029.6  fgp_end=0.9228
+  sto_gauge_W300_s1          mean_fid=0.15137  end_fid=0.05193  end_sign=0.1499  end_l1=    2031.5  fgp_end=0.9228
+  sto_unguided_W300_s2       mean_fid=0.17281  end_fid=0.06199  end_sign=0.0707  end_l1=    1987.1  fgp_end=0.9228
+  sto_gauge_W300_s2          mean_fid=0.15834  end_fid=0.04212  end_sign=0.1293  end_l1=    1954.8  fgp_end=0.9228
+  sto_unguided_W300_s3       mean_fid=0.14461  end_fid=0.05560  end_sign=0.0570  end_l1=    2014.2  fgp_end=0.9228
+  sto_gauge_W300_s3          mean_fid=0.13283  end_fid=0.03594  end_sign=0.1080  end_l1=    1943.8  fgp_end=0.9228
+  sto_unguided_W1000_s1      mean_fid=0.64897  end_fid=0.47620  end_sign=0.0195  end_l1=    2157.0  fgp_end=0.9228
+  sto_gauge_W1000_s1         mean_fid=0.62398  end_fid=0.42195  end_sign=0.4528  end_l1=    2137.3  fgp_end=0.9228
+  sto_unguided_W1000_s2      mean_fid=0.64483  end_fid=0.47346  end_sign=0.0449  end_l1=    2133.4  fgp_end=0.9228
+  sto_gauge_W1000_s2         mean_fid=0.64721  end_fid=0.44507  end_sign=0.5293  end_l1=    2227.9  fgp_end=0.9228
+  sto_unguided_W1000_s3      mean_fid=0.64537  end_fid=0.46357  end_sign=0.0381  end_l1=    2235.7  fgp_end=0.9228
+  sto_gauge_W1000_s3         mean_fid=0.63706  end_fid=0.43043  end_sign=0.4726  end_l1=    2157.6  fgp_end=0.9228
+  sto_unguided_W3000_s1      mean_fid=0.96596  end_fid=0.94091  end_sign=0.0111  end_l1=    3945.6  fgp_end=0.9228
+  sto_gauge_W3000_s1         mean_fid=0.96798  end_fid=0.94296  end_sign=0.8578  end_l1=    4031.2  fgp_end=0.9228
+  sto_unguided_W3000_s2      mean_fid=0.96656  end_fid=0.93865  end_sign=0.0074  end_l1=    3987.9  fgp_end=0.9228
+  sto_gauge_W3000_s2         mean_fid=0.96829  end_fid=0.93976  end_sign=0.8683  end_l1=    3977.2  fgp_end=0.9228
+  sto_unguided_W3000_s3      mean_fid=0.96370  end_fid=0.93363  end_sign=0.0055  end_l1=    4070.3  fgp_end=0.9228
+  sto_gauge_W3000_s3         mean_fid=0.96695  end_fid=0.93913  end_sign=0.8610  end_l1=    4018.6  fgp_end=0.9228
+
+vortex_unstable_N24  H=HubbardReal1D(fs"|8 8 8⟩"; u=0.17391304347826086, t=1.0) dim=325 dt=0.00138 tmax=6.0
+  det_unguided               mean_fid=1.00000  end_fid=1.00000  end_sign=0.0100  end_l1=    1514.7  fgp_end=0.1562
+  det_gauge                  mean_fid=1.00000  end_fid=1.00000  end_sign=0.3624  end_l1=    1514.7  fgp_end=0.1562
+  sto_unguided_W300_s1       mean_fid=0.14322  end_fid=0.02871  end_sign=0.0313  end_l1=    1988.4  fgp_end=0.1562
+  sto_gauge_W300_s1          mean_fid=0.15840  end_fid=0.06603  end_sign=0.1408  end_l1=    1978.4  fgp_end=0.1562
+  sto_unguided_W300_s2       mean_fid=0.13650  end_fid=0.06475  end_sign=0.0328  end_l1=    1973.0  fgp_end=0.1562
+  sto_gauge_W300_s2          mean_fid=0.16331  end_fid=0.07288  end_sign=0.0657  end_l1=    2025.3  fgp_end=0.1562
+  sto_unguided_W300_s3       mean_fid=0.13291  end_fid=0.04489  end_sign=0.0170  end_l1=    2025.1  fgp_end=0.1562
+  sto_gauge_W300_s3          mean_fid=0.13416  end_fid=0.03621  end_sign=0.0892  end_l1=    2000.1  fgp_end=0.1562
+  sto_unguided_W1000_s1      mean_fid=0.64178  end_fid=0.47409  end_sign=0.0183  end_l1=    2204.3  fgp_end=0.1562
+  sto_gauge_W1000_s1         mean_fid=0.63960  end_fid=0.45023  end_sign=0.2804  end_l1=    2256.4  fgp_end=0.1562
+  sto_unguided_W1000_s2      mean_fid=0.62874  end_fid=0.43828  end_sign=0.0142  end_l1=    2240.7  fgp_end=0.1562
+  sto_gauge_W1000_s2         mean_fid=0.64822  end_fid=0.47132  end_sign=0.2696  end_l1=    2272.1  fgp_end=0.1562
+  sto_unguided_W1000_s3      mean_fid=0.63400  end_fid=0.43497  end_sign=0.0454  end_l1=    2257.7  fgp_end=0.1562
+  sto_gauge_W1000_s3         mean_fid=0.66205  end_fid=0.48897  end_sign=0.2708  end_l1=    2262.0  fgp_end=0.1562
+  sto_unguided_W3000_s1      mean_fid=0.98143  end_fid=0.96902  end_sign=0.0127  end_l1=    4609.7  fgp_end=0.1562
+  sto_gauge_W3000_s1         mean_fid=0.98196  end_fid=0.96856  end_sign=0.3481  end_l1=    4605.9  fgp_end=0.1562
+  sto_unguided_W3000_s2      mean_fid=0.98091  end_fid=0.96775  end_sign=0.0172  end_l1=    4600.7  fgp_end=0.1562
+  sto_gauge_W3000_s2         mean_fid=0.98153  end_fid=0.96865  end_sign=0.3561  end_l1=    4616.6  fgp_end=0.1562
+  sto_unguided_W3000_s3      mean_fid=0.97977  end_fid=0.96622  end_sign=0.0162  end_l1=    4641.1  fgp_end=0.1562
+  sto_gauge_W3000_s3         mean_fid=0.97936  end_fid=0.96458  end_sign=0.3571  end_l1=    4594.0  fgp_end=0.1562
+
+imb_regular_N24  H=HubbardReal1D(fs"|8 8 8⟩"; u=0.17391304347826086, t=1.0) dim=325 dt=0.00132 tmax=6.0
+  det_unguided               mean_fid=0.99996  end_fid=0.99988  end_sign=0.1033  end_l1=    1344.9  fgp_end=0.5425
+  det_gauge                  mean_fid=0.99996  end_fid=0.99988  end_sign=0.7502  end_l1=    1344.9  fgp_end=0.5425
+  sto_unguided_W300_s1       mean_fid=0.23941  end_fid=0.10950  end_sign=0.1054  end_l1=    2030.6  fgp_end=0.5425
+  sto_gauge_W300_s1          mean_fid=0.21947  end_fid=0.09133  end_sign=0.1587  end_l1=    1927.8  fgp_end=0.5425
+  sto_unguided_W300_s2       mean_fid=0.19907  end_fid=0.06616  end_sign=0.0396  end_l1=    2003.5  fgp_end=0.5425
+  sto_gauge_W300_s2          mean_fid=0.21912  end_fid=0.09555  end_sign=0.1098  end_l1=    1959.2  fgp_end=0.5425
+  sto_unguided_W300_s3       mean_fid=0.19152  end_fid=0.05509  end_sign=0.0433  end_l1=    2006.2  fgp_end=0.5425
+  sto_gauge_W300_s3          mean_fid=0.19602  end_fid=0.06594  end_sign=0.1573  end_l1=    2049.0  fgp_end=0.5425
+  sto_unguided_W1000_s1      mean_fid=0.68659  end_fid=0.52036  end_sign=0.0756  end_l1=    2502.9  fgp_end=0.5425
+  sto_gauge_W1000_s1         mean_fid=0.70451  end_fid=0.54257  end_sign=0.3551  end_l1=    2464.4  fgp_end=0.5425
+  sto_unguided_W1000_s2      mean_fid=0.69784  end_fid=0.53419  end_sign=0.0365  end_l1=    2461.9  fgp_end=0.5425
+  sto_gauge_W1000_s2         mean_fid=0.68918  end_fid=0.52578  end_sign=0.3523  end_l1=    2447.2  fgp_end=0.5425
+  sto_unguided_W1000_s3      mean_fid=0.70581  end_fid=0.54100  end_sign=0.0628  end_l1=    2413.2  fgp_end=0.5425
+  sto_gauge_W1000_s3         mean_fid=0.69848  end_fid=0.54148  end_sign=0.4042  end_l1=    2476.8  fgp_end=0.5425
+  sto_unguided_W3000_s1      mean_fid=0.95992  end_fid=0.93134  end_sign=0.0955  end_l1=    4732.8  fgp_end=0.5425
+  sto_gauge_W3000_s1         mean_fid=0.95853  end_fid=0.92929  end_sign=0.6264  end_l1=    4739.0  fgp_end=0.5425
+  sto_unguided_W3000_s2      mean_fid=0.95997  end_fid=0.93170  end_sign=0.0784  end_l1=    4692.5  fgp_end=0.5425
+  sto_gauge_W3000_s2         mean_fid=0.95751  end_fid=0.92768  end_sign=0.6349  end_l1=    4737.5  fgp_end=0.5425
+  sto_unguided_W3000_s3      mean_fid=0.95927  end_fid=0.93039  end_sign=0.0798  end_l1=    4719.0  fgp_end=0.5425
+  sto_gauge_W3000_s3         mean_fid=0.95929  end_fid=0.93084  end_sign=0.6306  end_l1=    4745.4  fgp_end=0.5425
+
+imb_chaotic_N24  H=HubbardReal1D(fs"|8 8 8⟩"; u=0.782608695652174, t=1.0) dim=325 dt=0.00063 tmax=6.0
+  det_unguided               mean_fid=0.99916  end_fid=0.99751  end_sign=0.0918  end_l1=    1564.8  fgp_end=0.0187
+  det_gauge                  mean_fid=0.99916  end_fid=0.99751  end_sign=0.1543  end_l1=    1564.8  fgp_end=0.0187
+  sto_unguided_W300_s1       mean_fid=0.22752  end_fid=0.08236  end_sign=0.0579  end_l1=    1674.7  fgp_end=0.0187
+  sto_gauge_W300_s1          mean_fid=0.24402  end_fid=0.11084  end_sign=0.1641  end_l1=    1758.5  fgp_end=0.0187
+  sto_unguided_W300_s2       mean_fid=0.21893  end_fid=0.06522  end_sign=0.0637  end_l1=    1704.9  fgp_end=0.0187
+  sto_gauge_W300_s2          mean_fid=0.22977  end_fid=0.10991  end_sign=0.0216  end_l1=    1698.8  fgp_end=0.0187
+  sto_unguided_W300_s3       mean_fid=0.25922  end_fid=0.13012  end_sign=0.0902  end_l1=    1718.4  fgp_end=0.0187
+  sto_gauge_W300_s3          mean_fid=0.25882  end_fid=0.10157  end_sign=0.0146  end_l1=    1683.2  fgp_end=0.0187
+  sto_unguided_W1000_s1      mean_fid=0.78022  end_fid=0.65430  end_sign=0.0631  end_l1=    2256.9  fgp_end=0.0187
+  sto_gauge_W1000_s1         mean_fid=0.79178  end_fid=0.67022  end_sign=0.1291  end_l1=    2222.2  fgp_end=0.0187
+  sto_unguided_W1000_s2      mean_fid=0.77573  end_fid=0.63992  end_sign=0.0923  end_l1=    2221.8  fgp_end=0.0187
+  sto_gauge_W1000_s2         mean_fid=0.77225  end_fid=0.63401  end_sign=0.0658  end_l1=    2272.1  fgp_end=0.0187
+  sto_unguided_W1000_s3      mean_fid=0.77959  end_fid=0.64946  end_sign=0.1267  end_l1=    2244.3  fgp_end=0.0187
+  sto_gauge_W1000_s3         mean_fid=0.77934  end_fid=0.65397  end_sign=0.1638  end_l1=    2203.8  fgp_end=0.0187
+  sto_unguided_W3000_s1      mean_fid=0.97953  end_fid=0.96702  end_sign=0.0957  end_l1=    4961.1  fgp_end=0.0187
+  sto_gauge_W3000_s1         mean_fid=0.97949  end_fid=0.96541  end_sign=0.1596  end_l1=    5017.3  fgp_end=0.0187
+  sto_unguided_W3000_s2      mean_fid=0.97933  end_fid=0.96453  end_sign=0.0916  end_l1=    4965.1  fgp_end=0.0187
+  sto_gauge_W3000_s2         mean_fid=0.97932  end_fid=0.96460  end_sign=0.1427  end_l1=    4968.7  fgp_end=0.0187
+  sto_unguided_W3000_s3      mean_fid=0.98093  end_fid=0.96656  end_sign=0.0871  end_l1=    4968.2  fgp_end=0.0187
+  sto_gauge_W3000_s3         mean_fid=0.97848  end_fid=0.96416  end_sign=0.1561  end_l1=    4973.8  fgp_end=0.0187
+
+vortex_stable_N48  H=HubbardReal1D(fs"|16 16 16⟩"; u=0.031914893617021274, t=1.0) dim=1225 dt=0.00069 tmax=6.0
+  det_unguided               mean_fid=1.00000  end_fid=1.00000  end_sign=0.0000  end_l1=    1318.9  fgp_end=0.8603
+  det_gauge                  mean_fid=1.00000  end_fid=1.00000  end_sign=0.9337  end_l1=    1318.9  fgp_end=0.8603
+  sto_unguided_W1000_s1      mean_fid=0.12238  end_fid=0.03894  end_sign=0.0215  end_l1=    9568.8  fgp_end=0.8603
+  sto_gauge_W1000_s1         mean_fid=0.12322  end_fid=0.04888  end_sign=0.1101  end_l1=    9571.7  fgp_end=0.8603
+  sto_unguided_W1000_s2      mean_fid=0.11944  end_fid=0.03656  end_sign=0.0227  end_l1=    9516.3  fgp_end=0.8603
+  sto_gauge_W1000_s2         mean_fid=0.13425  end_fid=0.04972  end_sign=0.1802  end_l1=    9572.6  fgp_end=0.8603
+  sto_unguided_W1000_s3      mean_fid=0.13303  end_fid=0.04968  end_sign=0.0063  end_l1=    9345.2  fgp_end=0.8603
+  sto_gauge_W1000_s3         mean_fid=0.12910  end_fid=0.04726  end_sign=0.1273  end_l1=    9569.5  fgp_end=0.8603
+  sto_unguided_W3000_s1      mean_fid=0.52825  end_fid=0.34654  end_sign=0.0084  end_l1=   10337.1  fgp_end=0.8603
+  sto_gauge_W3000_s1         mean_fid=0.53076  end_fid=0.34820  end_sign=0.3539  end_l1=   10247.5  fgp_end=0.8603
+  sto_unguided_W3000_s2      mean_fid=0.53453  end_fid=0.35055  end_sign=0.0147  end_l1=   10250.6  fgp_end=0.8603
+  sto_gauge_W3000_s2         mean_fid=0.53087  end_fid=0.35041  end_sign=0.3569  end_l1=   10266.8  fgp_end=0.8603
+  sto_unguided_W3000_s3      mean_fid=0.52160  end_fid=0.33595  end_sign=0.0049  end_l1=   10318.4  fgp_end=0.8603
+  sto_gauge_W3000_s3         mean_fid=0.52949  end_fid=0.34625  end_sign=0.3597  end_l1=   10334.5  fgp_end=0.8603
+  sto_unguided_W10000_s1     mean_fid=0.93505  end_fid=0.88629  end_sign=0.0027  end_l1=   17413.4  fgp_end=0.8603
+  sto_gauge_W10000_s1        mean_fid=0.93567  end_fid=0.88945  end_sign=0.7105  end_l1=   17457.5  fgp_end=0.8603
+  sto_unguided_W10000_s2     mean_fid=0.93591  end_fid=0.89343  end_sign=0.0020  end_l1=   17374.5  fgp_end=0.8603
+  sto_gauge_W10000_s2        mean_fid=0.93529  end_fid=0.88745  end_sign=0.7108  end_l1=   17509.6  fgp_end=0.8603
+  sto_unguided_W10000_s3     mean_fid=0.93375  end_fid=0.88737  end_sign=0.0079  end_l1=   17466.3  fgp_end=0.8603
+  sto_gauge_W10000_s3        mean_fid=0.93430  end_fid=0.88769  end_sign=0.7195  end_l1=   17457.2  fgp_end=0.8603
+
+vortex_unstable_N48  H=HubbardReal1D(fs"|16 16 16⟩"; u=0.0851063829787234, t=1.0) dim=1225 dt=0.00069 tmax=6.0
+  det_unguided               mean_fid=1.00000  end_fid=1.00000  end_sign=0.0006  end_l1=    2047.8  fgp_end=0.0461
+  det_gauge                  mean_fid=1.00000  end_fid=1.00000  end_sign=0.1795  end_l1=    2047.8  fgp_end=0.0461
+  sto_unguided_W1000_s1      mean_fid=0.11309  end_fid=0.03522  end_sign=0.0176  end_l1=    9646.3  fgp_end=0.0461
+  sto_gauge_W1000_s1         mean_fid=0.13079  end_fid=0.03874  end_sign=0.0610  end_l1=    9437.3  fgp_end=0.0461
+  sto_unguided_W1000_s2      mean_fid=0.11037  end_fid=0.03073  end_sign=0.0211  end_l1=    9371.6  fgp_end=0.0461
+  sto_gauge_W1000_s2         mean_fid=0.12750  end_fid=0.04400  end_sign=0.0323  end_l1=    9447.4  fgp_end=0.0461
+  sto_unguided_W1000_s3      mean_fid=0.13665  end_fid=0.06462  end_sign=0.0163  end_l1=    9382.4  fgp_end=0.0461
+  sto_gauge_W1000_s3         mean_fid=0.14078  end_fid=0.05381  end_sign=0.0464  end_l1=    9455.6  fgp_end=0.0461
+  sto_unguided_W3000_s1      mean_fid=0.55646  end_fid=0.36340  end_sign=0.0323  end_l1=   10121.8  fgp_end=0.0461
+  sto_gauge_W3000_s1         mean_fid=0.54747  end_fid=0.36374  end_sign=0.1037  end_l1=   10203.7  fgp_end=0.0461
+  sto_unguided_W3000_s2      mean_fid=0.53862  end_fid=0.35281  end_sign=0.0194  end_l1=   10168.0  fgp_end=0.0461
+  sto_gauge_W3000_s2         mean_fid=0.55905  end_fid=0.37679  end_sign=0.1345  end_l1=   10205.7  fgp_end=0.0461
+  sto_unguided_W3000_s3      mean_fid=0.56289  end_fid=0.38146  end_sign=0.0172  end_l1=   10353.0  fgp_end=0.0461
+  sto_gauge_W3000_s3         mean_fid=0.54586  end_fid=0.34658  end_sign=0.1194  end_l1=   10338.8  fgp_end=0.0461
+  sto_unguided_W10000_s1     mean_fid=0.96957  end_fid=0.95441  end_sign=0.0134  end_l1=   20871.2  fgp_end=0.0461
+  sto_gauge_W10000_s1        mean_fid=0.96994  end_fid=0.95506  end_sign=0.1604  end_l1=   20995.7  fgp_end=0.0461
+  sto_unguided_W10000_s2     mean_fid=0.96960  end_fid=0.95457  end_sign=0.0012  end_l1=   21182.1  fgp_end=0.0461
+  sto_gauge_W10000_s2        mean_fid=0.96737  end_fid=0.95190  end_sign=0.1791  end_l1=   21044.8  fgp_end=0.0461
+  sto_unguided_W10000_s3     mean_fid=0.97068  end_fid=0.95611  end_sign=0.0071  end_l1=   20984.2  fgp_end=0.0461
+  sto_gauge_W10000_s3        mean_fid=0.96902  end_fid=0.95302  end_sign=0.1768  end_l1=   21001.0  fgp_end=0.0461
